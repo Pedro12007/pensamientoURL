@@ -1,9 +1,7 @@
-#Tarea 6 laboratorio
-
 saldo = 3000
 error = 0
 
-while saldo > 0 and error < 3:
+while error < 3:
 	dinero = int(input("Ingrese la cantidad de dinero a retirar: "))
 	if dinero <= saldo:
 		saldo -= dinero
